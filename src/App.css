@@ -1,0 +1,43 @@
+/** {outline : 1px solid red; }*/
+
+
+.tile-container {
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  margin-left: auto;
+  margin-right: auto;
+  height: 360px;
+  background-color: aquamarine;
+  position: relative;
+  width: 360px;
+
+}
+
+html {
+  text-align: center;
+  background-color: aquamarine;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 90px;
+  padding: 0px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
