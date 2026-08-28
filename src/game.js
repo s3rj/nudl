@@ -5,10 +5,10 @@
 export const GRID_SIZE = 5;
 
 export const PIECES = {
-  a: { image: '/images/a.png', dirs: [0, 1, 3] }, // T-junction
-  b: { image: '/images/b.png', dirs: [0, 1] }, // elbow
-  c: { image: '/images/c.png', dirs: [0, 2] }, // straight
-  d: { image: '/images/d.png', dirs: [0] }, // dead end
+  a: { image: 'images/a.png', dirs: [0, 1, 3] }, // T-junction
+  b: { image: 'images/b.png', dirs: [0, 1] }, // elbow
+  c: { image: 'images/c.png', dirs: [0, 2] }, // straight
+  d: { image: 'images/d.png', dirs: [0] }, // dead end
 };
 
 const DELTAS = [
