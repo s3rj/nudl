@@ -31,7 +31,7 @@ export default function App() {
       <p className="App-intro">
         {solved
           ? `untangled in ${moves} moves.`
-          : 'click a tile to rotate it. connect all the pieces into one unbroken noodle.'}
+          : 'connect all the pieces into one unbroken noodle.'}
       </p>
       <section className={`tile-container${solved ? ' solved' : ''}`}>
         {tiles.map((tile, i) => (
